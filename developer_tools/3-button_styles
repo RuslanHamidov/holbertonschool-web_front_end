@@ -47,5 +47,6 @@ $ head -2 3-button_styles
     color: #212529;
     background-color: #f8f9fa;
     border-color: #f8f9fa;
+    background-color: transparent;
 
 $
