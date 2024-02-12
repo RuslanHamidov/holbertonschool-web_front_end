@@ -1,12 +1,17 @@
-@mixin margins {
+@mixin margins1 {
     margin-left: 10px;
     margin-right: 10px;
 }
 
+@mixin margins2 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 
 body {
-  @include margins() }
+  @include margins1() }
 
 div {
-    @include margins
+    @include margins2()
  }
