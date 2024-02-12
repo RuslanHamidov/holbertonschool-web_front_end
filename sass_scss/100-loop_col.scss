@@ -1,5 +1,5 @@
 @for $num from 1 through 4 {
     .col-#{$num} {
-        width: 100 / #{$num}%;
+        width: 1 / $num;
     }
 }
