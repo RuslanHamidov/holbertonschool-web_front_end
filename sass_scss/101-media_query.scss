@@ -1,8 +1,9 @@
 h1 {
-    font-size: 20px; }
-
-@if max-width < 320px {
-    h1 {
-        font-size: 14px;
+    font-size: 20px; 
+    @if max-width < 320px {
+        h1 {
+            font-size: 14px;
+        }
     }
 }
+
