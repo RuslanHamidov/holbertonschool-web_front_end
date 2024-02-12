@@ -1,0 +1,29 @@
+$fontsize-main: 20px;
+$fontsize-18: 14px;
+$fontsize-16: 14px;
+$fontsize-14: 14px;
+$screen-96: 960px;
+$screen-64: 640px;
+$screen-32: 320px;
+$colornew: #1D1D1D;
+
+h1 {
+    font-size: $fontsize-main;
+
+    @media screen and (max-width: $screen-96) {
+        font-size: $fontsize-18;
+    }
+
+    @media screen and (max-width: $screen-64) {
+        font-size: $fontsize-16;
+    }
+    
+    @media screen and (max-width: $screen-32) {
+        font-size: $fontsize-14;
+    }
+
+    @media screen and (max-width: $screen-32) {
+        color: $colornew;
+    }
+
+    }
