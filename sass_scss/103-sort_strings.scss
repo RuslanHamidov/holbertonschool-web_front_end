@@ -4,7 +4,7 @@ $sorted-list: sort($list_to_sort);
 
 @each $name in $sorted-list {
     .names-#{name}{
-       @debug #{$name}; 
+       @debug Hello; 
     }
     
 }
