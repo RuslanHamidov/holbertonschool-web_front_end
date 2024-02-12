@@ -3,5 +3,8 @@ $list_to_sort: john anna zoe kim felicia carrie;
 $sorted-list: sort($list_to_sort);
 
 @each $name in $sorted-list {
-    @debug #[$name];
+    .names-#{name}{
+       @debug #{$name}; 
+    }
+    
 }
