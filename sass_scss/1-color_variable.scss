@@ -1,5 +1,9 @@
 $var: #3D3D3D;
 
-body, p {
+body {
+    color: $var;
+}
+
+p {
     color: $var;
 }
