@@ -1,10 +1,10 @@
-h1 {
-    font-size: 20px;
-    
-    @if @media screen and max-width < 320px {
-    h1{
-        font-size: 14px;
-    }
-}
+$fontsizel: 20px;
+$fontsizes: 14px;
+$screen: 320px;
 
-}
+h1 {
+    font-size: $fontsizel;
+    @media screen and (max-width: $screen) {
+        font-size: $fontsizes;
+      }
+    }
