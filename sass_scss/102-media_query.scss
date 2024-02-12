@@ -23,3 +23,9 @@ h1 {
     }
 
     }
+
+    h1.small {
+        @media screen and (max-width: $screen-32) {
+          color: $colornew;
+        }
+      }
