@@ -1,0 +1,15 @@
+$varcolor: #3D3D3D;
+$varback: #6D6D6D;
+
+body {
+    color: $varcolor;
+    background-color: $varback;
+}
+
+p {
+    color: $varcolor;
+}
+
+h2 {
+    background-color: $varback;
+}
