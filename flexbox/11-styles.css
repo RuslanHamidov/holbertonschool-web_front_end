@@ -688,7 +688,7 @@ ul.row {
     }
 
     .hero-article::before {
-      content: ;
+      content: empty;
       background: rgba(0, 0, 0, 0.8);
       position: absolute;
       top: 0;
@@ -698,13 +698,13 @@ ul.row {
       z-index: 0;
     }
 
-    .section-inner {
+    .hero-article .section-inner {
       text-align: center;
       align-items: center;
       min-height: 40vh;
     }
 
-    .section-body {
+    .hero-article .section-body {
       position: relative;
       padding: 7rem 0 0;
       z-index: 2;
