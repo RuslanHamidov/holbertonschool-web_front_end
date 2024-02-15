@@ -662,7 +662,7 @@
         font-variant: small-caps;
     }
 
-    .fieldset {
+    fieldset {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
