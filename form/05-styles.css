@@ -740,6 +740,7 @@
       font-style: normal;
     }
 
+    
     /* Form help
 ============================= */
 
@@ -754,7 +755,7 @@
       overflow: hidden;
     }
 
-    .form-group:focus-within {
+    .form-group:focus-within .form-help{
       max-height: 20rem;
       margin: .4rem 0 0;
     }
