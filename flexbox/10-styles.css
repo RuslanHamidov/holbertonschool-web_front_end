@@ -336,7 +336,7 @@
     padding: var(--section-body-padding);
   }
   
-  .section-hero {
+  .section-body .section-hero {
     padding: 10rem 4rem;
   }
 
@@ -369,7 +369,7 @@
     
   }
   
-  .hero-hompage {
+  .section-hero .hero-hompage {
     background-position: 75% 0;
     background-repeat: no-repeat;
     background-size: 90rem auto;
