@@ -692,6 +692,7 @@
     display: block;
     text-decoration: none;
     padding-top: 45%;
+    opacity: 0;
   }
   
   .card-work .card-title a::after {
@@ -724,7 +725,7 @@
     .card-work .card-title a {
       display: block;
       padding: 2rem 1rem 0 1rem;
-      opacity: 0;
+      
     }
   
   
