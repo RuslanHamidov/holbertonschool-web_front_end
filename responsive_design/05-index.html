@@ -7,7 +7,7 @@
     <meta name="description" content="Description of the page less than 150 characters">
     <link rel="icon" type="image/png" href="images/favicon.jpg">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet">
-    <link rel='stylesheet' href='01-styles.css'>
+    <link rel='stylesheet' href='05-styles.css'>
   </head>
   <body>
     <!– Header –>
@@ -19,6 +19,11 @@
             <img src="assets/logo-white.png" alt="Techium logo" width="160" height="40">
           </a>
         </div>
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+        <label class="menu-icon" for="menu-btn" >
+           <span class="navicon">
+
+        </span></label>
         <nav class="navbar-menu">
           <ul class="nav">
             <li class="nav-item">
@@ -178,7 +183,14 @@
           <div class="section-body">
             <div class="row">
               <div class="col-1-2">
-                <img src="images/pic-about-01.jpg" alt="" width="460" height="460">
+                <img
+                sizes="(max-width: 1530px) 40vw, 612px"
+                srcset="
+                pic-about-01_heekkx_c_scale,w_380.jpg 380w,
+                pic-about-01_heekkx_c_scale,w_530.jpg 530w,
+                pic-about-01_heekkx_c_scale,w_612.jpg 612w"
+                src="pic-about-01_heekkx_c_scale,w_612.jpg"
+                alt="about"> 
               </div>
               <div class="col-1-2">
                 <h3>Who are we</h3>
@@ -206,7 +218,14 @@
               <li class="col-1-3">
                 <article class="card-blog">
                   <div>
-                    <img src="images/pic-article-01.jpg" alt="" width="305" height="305">
+                    <img
+                    sizes="(max-width: 1810px) 40vw, 724px"
+                    srcset="
+                    pic-article-01_js4vw4_c_scale,w_380.jpg 380w,
+                    pic-article-01_js4vw4_c_scale,w_672.jpg 672w,
+                    pic-article-01_js4vw4_c_scale,w_724.jpg 724w"
+                    src="assests/pic-article-01_js4vw4_c_scale,w_724.jpg"
+                    alt="article-01">
                   </div>
                   <p class="card-category">Career</p>
                   <h3><a href="#">Hoc loco tenere se Triarius non potuit.</a></h3>
@@ -217,7 +236,14 @@
               <li class="col-1-3">
                 <article class="card-blog">
                   <div>
-                    <img src="images/pic-article-02.jpg" alt="" width="305" height="305">
+                    <img
+                    sizes="(max-width: 2250px) 40vw, 900px"
+                    srcset="
+                    pic-article-02_eodwdt_c_scale,w_380.jpg 380w,
+                    pic-article-02_eodwdt_c_scale,w_806.jpg 806w,
+                    pic-article-02_eodwdt_c_scale,w_900.jpg 900w"
+                    src="pic-article-02_eodwdt_c_scale,w_900.jpg"
+                    alt="article-02">
                   </div>
                   <p class="card-category">Digital Life</p>
                   <h3><a href="#">Ut alios omittam, hunc appello, quem ille unum secutus est.</a></h3>
@@ -228,7 +254,14 @@
               <li class="col-1-3">
                 <article class="card-blog">
                   <div>
-                    <img src="images/pic-article-03.jpg" alt="" width="305" height="305">
+                    <img
+                    sizes="(max-width: 6000px) 40vw, 2400px"
+                    srcset="
+                    pic-article-03_vsmjnz_c_scale,w_380.jpg 380w,
+                    pic-article-03_vsmjnz_c_scale,w_1619.jpg 1619w,
+                    pic-article-03_vsmjnz_c_scale,w_2400.jpg 2400w"
+                    src="assests/pic-article-03_vsmjnz_c_scale,w_2400.jpg"
+                    alt="article-03">
                   </div>
                   <p class="card-category">Social</p>
                   <h3><a href="#">Bestiarum vero nullum iudicium puto.</a></h3>
