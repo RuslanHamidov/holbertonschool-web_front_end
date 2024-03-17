@@ -1,0 +1,49 @@
+.btn-primary {
+    border-color: #E0003C !important;
+    color: #FFFFFF !important; 
+    background-color: #E0003C !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #FFFFFF !important;
+    background-color: #bc1340 !important;
+    border-color: #bc1340 !important;
+}
+
+.btn-outline-primary {
+    color: #E0003C !important;
+    border-color: #E0003C !important;
+}
+
+.btn-outline-primary:hover {
+    color: #FFFFFF !important;
+    background-color: #E0003C !important;
+    border-color: #E0003C !important;
+}
+
+a.text-dark:hover a.text-dark:focus {
+    color: #E0003C !important; 
+    text-decoration: none !important;
+}
+
+.card {
+    border: 1px solid #E0003C !important; 
+    border-radius: 1rem !important;
+}
+
+.card-header {
+    background-color: #E0003C !important; 
+    color: #FFFFFF !important;
+}
+
+.card-header:first-child {
+    border-radius: calc(1rem - 1px) calc(1rem - 1px) 0 0 !important; 
+}
+
+.border-bottom {
+    border-bottom: 1px solid #E0003C !important;
+}
+
+.text-muted {
+    color: #8c8c8c!important;
+}
