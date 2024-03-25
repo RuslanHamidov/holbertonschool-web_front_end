@@ -4,7 +4,7 @@
     <head>
 
         <meta charset="utf-8" />
-        <title>Task 3</title>
+        <title>Task 5</title>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
 
     </head>
@@ -13,7 +13,7 @@
 
         <script type='application/javascript'>
         function createFamilyTree() {
-            $('body').append('<table></table>')
+            $('body').append('<table></table>');
             $('table').append('<thead></thead>', '<tbody></tbody>');
             $('thead').append('<tr></tr>');
             $('tbody').append('<tr></tr>', '<tr></tr>', '<tr></tr>');
@@ -21,12 +21,23 @@
             $('tbody tr').append('<td></td>', '<td></td>');
             $('th:first').text('Firstname');
             $('th:last').text('Lastname');
-            $('td:first').text('Guillaume');
-            $('tr:nth-child(2) > td:first').text('Paulette');
-            $('tr:nth-child(3) > td:first').text('Antoine');
-            $('td:last-child').text('Salva');
         }
+
+        function addNewMember(firstName, lastName) {
+            $('tbody').append('<tr></tr>');
+            $('tbody tr:last').append('<td>' + firstName, '</td><td>' + lastName, '</td><td>(x)</td>');
+            $('tbody td:last').css('background-color', 'orange');
+            $('tbody td:last').click(function () {
+                $(this).parent().remove();
+            })
+        }
+
         createFamilyTree();
+        addNewMember('Guillaume', 'Salva');
+        addNewMember('Arielle', 'Snizt');
+        addNewMember('Fanette', 'Snizt');
+        addNewMember('Gerard', 'Snizt');
+        addNewMember('Victor', 'Salva');
         </script>
 
     </body>
