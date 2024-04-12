@@ -14,8 +14,8 @@
             d.setDate(d.getDate() + 10)
             let firstname = document.getElementById("firstname").value
             let email = document.getElementById("email").value
-            document.cookie = "firstname= " + firstname
-            document.cookie = "email= " + email
+            document.cookie = firstname
+            document.cookie = email
             document.cookie = `expires=${d.toUTCString()}`
         }
 
@@ -23,7 +23,7 @@
             const paragraph = document.createElement("p")
             const emailCookie = getCookie("email");
             const firstnameCookie = getCookie("firstname");
-            paragraph.innerHTML = "Cookies: " + document.cookie
+            paragraph.innerHTML = `Email: ${emailCookie} - Firstname: ${firstnameCookie}`
             document.body.appendChild(paragraph)
         }
 
